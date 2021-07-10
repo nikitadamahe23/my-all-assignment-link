@@ -1,0 +1,25 @@
+//java script assignment
+// palindrom word
+
+s=" abba bb nmm cvvvc"
+word=""
+for(t of s)
+ {
+  if(t!=" ")
+  {
+   word=word+1
+   }
+   else
+   {
+   reverse=""
+   for(i of word)
+   {
+   reverse = reverse+1
+   }
+   if(reverse == word)
+   {
+   console.log(word)
+   }
+   word = ""
+   }
+   }
